@@ -17,8 +17,8 @@ body article h2 {
 ## Child combinator
 
 * Identificado pelo sinal ` > ` entre dois seletores
-* Seleciona somente o elemento que é filho direto do pai
-* Elementos depois do filho direto serão desconsiderados
+* Seleciona todos o elementos que são filhos direto do pai
+* Elementos depois dos filhos diretos serão desconsiderados
 ```css
 body > ul > li {
   color: red;
