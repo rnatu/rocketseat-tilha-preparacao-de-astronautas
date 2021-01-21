@@ -35,7 +35,7 @@ h1 + p {
 }
 ```
 
-ou
+outro exemplo:
 
 ```css
 button + button {

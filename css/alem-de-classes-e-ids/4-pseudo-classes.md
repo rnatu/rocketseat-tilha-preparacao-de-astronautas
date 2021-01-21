@@ -9,26 +9,35 @@ Pseudo-classes começam com 2 pontos seguido do nome da pseudo class
 
 ## Selecionando elementos com pseudo-classes
 
-* :first-child
+* :first-child -> Seleciona o primeiro filho na hierarquia
 ```css
 ul li:first-child {
   font-weight: bold;
 }
 ```
 
-* :nth-of-type()
+* :nth-of-type() -> Seleciona dentre todos os TIPOS na hierarquia, pela posição informada.
 ```css
-article p:nth-of-type(3) {
+article p:nth-of-type(1) {
   color: red;
 }
 ```
 
-* :nth-child()
+* :nth-child() -> Seleciona dentre todos filhos na hierarquia, pela posição informada.
 ```css
-article p:nth-child(2) {
+article p:nth-child(3) {
   color: red;
 }
-
 ```
 
+* :nth-child(even) ou :nth-child(odd) -> Seleciona na hierarquia os filhos pares(odd) e/ou ímpares(even)
+```css
+ul li:nth-child(even) {
+    color: red;
+  }
+
+  ul li:nth-child(odd) {
+    color: blue;
+  }
+```
 ## Ações do usuário
