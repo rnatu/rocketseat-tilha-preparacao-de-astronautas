@@ -40,4 +40,27 @@ ul li:nth-child(even) {
     color: blue;
   }
 ```
+
 ## Ações do usuário
+
+* :hover -> Aplica o estilo quando o mouse estiver sobre o elemento
+```css
+  a:hover {
+    color:red;
+  }
+```
+* :focus -> Aplica o estilo quando o elemento estiver em foco
+```css
+  input:focus {
+    border-color: red;
+    outline: none;
+  }
+```
+
+## Atributos
+* :disabled
+* :required
+
+## Referência
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
