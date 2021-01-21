@@ -18,11 +18,17 @@ ul li:first-child {
 
 * :nth-of-type()
 ```css
-ul li:nth-of-type(3) {
-  color:red;
+article p:nth-of-type(3) {
+  color: red;
 }
 ```
 
 * :nth-child()
+```css
+article p:nth-child(2) {
+  color: red;
+}
+
+```
 
 ## Ações do usuário
