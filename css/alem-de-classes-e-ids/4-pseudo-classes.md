@@ -15,7 +15,14 @@ ul li:first-child {
   font-weight: bold;
 }
 ```
+
 * :nth-of-type()
+```css
+ul li:nth-of-type(3) {
+  color:red;
+}
+```
+
 * :nth-child()
 
 ## Ações do usuário
