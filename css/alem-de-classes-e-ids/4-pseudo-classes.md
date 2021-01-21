@@ -43,13 +43,13 @@ ul li:nth-child(even) {
 
 ## Ações do usuário
 
-* :hover -> Aplica o estilo quando o mouse estiver sobre o elemento
+* :hover -> Aplica o estilo enquanto o mouse estiver sobre o elemento
 ```css
   a:hover {
     color:red;
   }
 ```
-* :focus -> Aplica o estilo quando o elemento estiver em foco
+* :focus -> Aplica o estilo enquanto o elemento estiver em foco
 ```css
   input:focus {
     border-color: red;
@@ -58,8 +58,19 @@ ul li:nth-child(even) {
 ```
 
 ## Atributos
-* :disabled
-* :required
+* :disabled -> Aplica o estilo se o elemento possuir o atributo disabled
+```css
+input:disabled {
+  background-color: gray;
+}
+```
+
+* :required -> Aplica o estilo se o elemento possuir o atributo required
+```css
+input:required {
+  background-color: red;
+}
+```
 
 ## Referência
 https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
