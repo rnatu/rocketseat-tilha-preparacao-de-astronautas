@@ -35,5 +35,12 @@ article p::first-line {
 }
 ```
 
+## pseudo-elements + pseudo-classes
+```css
+p:nth-of-type(2)::first-line {
+  color:red;
+}
+```
+
 ## Referência
 https://developer.mozilla.org/en-US/docs/web/CSS/Pseudo-elements
