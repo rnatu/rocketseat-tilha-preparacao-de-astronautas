@@ -7,3 +7,15 @@ Exemplo: É o primeiro elemento dentro de uma caixa, ou, o elemento está com o 
 Pseudo-classes começam com 2 pontos seguido do nome da pseudo class
 `:pseudo-class-name`
 
+## Selecionando elementos com pseudo-classes
+
+* :first-child
+```css
+ul li:first-child {
+  font-weight: bold;
+}
+```
+* :nth-of-type()
+* :nth-child()
+
+## Ações do usuário
