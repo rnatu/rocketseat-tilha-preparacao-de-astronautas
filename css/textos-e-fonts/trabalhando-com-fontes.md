@@ -34,3 +34,8 @@ p {
   font-weight: bold;
 }
 ```
+## Font Style
+```css
+span {
+  font-style: italic;
+}
