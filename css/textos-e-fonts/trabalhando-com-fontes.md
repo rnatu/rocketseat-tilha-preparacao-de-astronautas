@@ -1,3 +1,4 @@
+https://www.w3.org/TR/css-fonts-3/
 # Trabalhando com fontes
 
 Tipografia transmite mensagem
@@ -25,3 +26,11 @@ p {
 ```
   - serif
   - sans-serif
+
+## Font Weight
+* Peso da fonte
+```css
+p {
+  font-weight: bold;
+}
+```
