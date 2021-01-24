@@ -39,3 +39,10 @@ p {
 span {
   font-style: italic;
 }
+```
+
+## Font size
+```css
+p {
+  font-size: 2rem;
+}
