@@ -1,4 +1,4 @@
-https://www.w3.org/TR/css-fonts-3/
+<!-- https://www.w3.org/TR/css-fonts-3/ -->
 # Trabalhando com fontes
 
 Tipografia transmite mensagem
@@ -46,3 +46,26 @@ span {
 p {
   font-size: 2rem;
 }
+```
+
+## Web Fonts
+- fonte de sistema x fontes da web
+- como usar fontes para web?
+
+<!-- https://css-tricks.com/snippets/css/using-font-face/ -->
+  - @font-face
+
+
+ <!--  https://fonts.google.com/ -->
+  - @import
+  ```css
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+  </style>
+  ```
+
+  link -> (RECOMENDADO)
+  ```html
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+  ```
