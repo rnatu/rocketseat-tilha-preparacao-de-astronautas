@@ -4,42 +4,52 @@ Conecta um elemento HTML com o CSS a fim de alterar o elemento.
 
 ## Tipos
 
-  * Element selector
-    - Todos os elementos HTML
+Element selector
+
+* Todos os elementos HTML
+
 ```css
   h1 {
     color: red;
   }
 ```
 
-  * ID Selector
-    - Um elemento que tenha um atributo `id`.
-    - Cada id deverá ser único.
+ID Selector
+*Um elemento que tenha um atributo `id`.
+
+* Cada id deverá ser único.
+
 ```css
   #button{
     color: green;
   }
 ```
 
-  * Class Selector
-    - Os elementos que contenha um atributo `class`.
-    - Podemos ter uma ou mais classes.
+Class Selector
+
+* Os elementos que contenha um atributo `class`.
+* Podemos ter uma ou mais classes.
+
 ```css
   .card {
     background-color: white;
   }
 ```
 
-  * Attribute selector
-    - Um elemento que tenha um atributo específico.
+Attribute selector
+
+* Um elemento que tenha um atributo específico.
+
 ```css
 [title] {
   color: orange;
 }
 ```
 
-  * Pseudo-class selector
-    - Elementos em um estado específico
+Pseudo-class selector
+
+* Elementos em um estado específico
+
 ```css
 p:hover {
   color: red;

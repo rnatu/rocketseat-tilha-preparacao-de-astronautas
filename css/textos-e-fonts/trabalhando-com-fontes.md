@@ -1,40 +1,47 @@
-<!-- https://www.w3.org/TR/css-fonts-3/ -->
 # Trabalhando com fontes
 
+<https://www.w3.org/TR/css-fonts-3/>
+
 Tipografia transmite mensagem
-  - negrito
-  - tamanho
-  - estilo
+
+- negrito
+- tamanho
+- estilo
 
 ## Basic Font Properties
 
-* font-family
-* font- weight
-* font-style
-* font-size
+- font-family
+- font- weight
+- font-style
+- font-size
 
 ## Font Family
 
-* Tipo de fonte de um elemento
-* Lista de fontes e ordem de prioridade
-* inclui *fallback* font
+- Tipo de fonte de um elemento
+- Lista de fontes e ordem de prioridade
+- inclui *fallback* font
 
 ```css
 p {
   font-family: "Times New Roman", Times, serif;
 }
 ```
-  - serif
-  - sans-serif
+
+- serif
+- sans-serif
 
 ## Font Weight
-* Peso da fonte
+
+- Peso da fonte
+
 ```css
 p {
   font-weight: bold;
 }
 ```
+
 ## Font Style
+
 ```css
 span {
   font-style: italic;
@@ -42,6 +49,7 @@ span {
 ```
 
 ## Font size
+
 ```css
 p {
   font-size: 2rem;
@@ -49,15 +57,17 @@ p {
 ```
 
 ## Web Fonts
+
 - fonte de sistema x fontes da web
 - como usar fontes para web?
 
-<!-- https://css-tricks.com/snippets/css/using-font-face/ -->
-  - @font-face
+<https://css-tricks.com/snippets/css/using-font-face/>
 
+- @font-face
 
- <!--  https://fonts.google.com/ -->
-  - @import
+  <https://fonts.google.com/>
+- @import
+
   ```css
   <style>
   @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
@@ -65,6 +75,7 @@ p {
   ```
 
   link -> (RECOMENDADO)
+
   ```html
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">

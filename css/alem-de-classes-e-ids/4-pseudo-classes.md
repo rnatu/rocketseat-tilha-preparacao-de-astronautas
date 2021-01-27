@@ -10,6 +10,7 @@ Pseudo-classes começam com 2 pontos seguido do nome da pseudo class
 ## Selecionando elementos com pseudo-classes
 
 * :first-child -> Seleciona o primeiro filho na hierarquia
+
 ```css
 ul li:first-child {
   font-weight: bold;
@@ -17,6 +18,7 @@ ul li:first-child {
 ```
 
 * :nth-of-type() -> Seleciona dentre todos os TIPOS na hierarquia, pela posição informada.
+
 ```css
 article p:nth-of-type(1) {
   color: red;
@@ -24,6 +26,7 @@ article p:nth-of-type(1) {
 ```
 
 * :nth-child() -> Seleciona dentre todos filhos na hierarquia, pela posição informada.
+
 ```css
 article p:nth-child(3) {
   color: red;
@@ -31,6 +34,7 @@ article p:nth-child(3) {
 ```
 
 * :nth-child(even) ou :nth-child(odd) -> Seleciona na hierarquia os filhos pares(odd) e/ou ímpares(even)
+
 ```css
 ul li:nth-child(even) {
     color: red;
@@ -44,12 +48,15 @@ ul li:nth-child(even) {
 ## Ações do usuário
 
 * :hover -> Aplica o estilo enquanto o mouse estiver sobre o elemento
+
 ```css
   a:hover {
     color:red;
   }
 ```
+
 * :focus -> Aplica o estilo enquanto o elemento estiver em foco
+
 ```css
   input:focus {
     border-color: red;
@@ -58,7 +65,9 @@ ul li:nth-child(even) {
 ```
 
 ## Atributos
+
 * :disabled -> Aplica o estilo se o elemento possuir o atributo disabled
+
 ```css
 input:disabled {
   background-color: gray;
@@ -66,12 +75,13 @@ input:disabled {
 ```
 
 * :required -> Aplica o estilo se o elemento possuir o atributo required
+
 ```css
 input:required {
   background-color: red;
 }
 ```
 
-## Referência:
-https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+## Referência
 
+<https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes>
