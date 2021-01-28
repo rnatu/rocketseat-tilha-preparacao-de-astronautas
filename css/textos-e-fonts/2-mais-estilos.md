@@ -4,8 +4,6 @@
 
 ## font-variant
 
-<https://developer.mozilla.org/en-US/docs/web/CSS/font-variant>
-
 *variações na apresentação fonte
 
 ```css
@@ -13,6 +11,8 @@ p {
   font-variant: small-caps;
 }
 ```
+
+<https://developer.mozilla.org/en-US/docs/web/CSS/font-variant>
 
 ## font-stretch
 
@@ -51,3 +51,28 @@ p {
 ```
 
 <https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing>
+
+## line-height
+
+* Espaços entre linhas
+* Pode ser com unidades ou sem unidades de medida
+* Comuns 1.5 ou 2
+
+```css
+p {
+  line-height: 1.6;
+}
+```
+
+<https://developer.mozilla.org/en-US/docs/Web/CSS/line-height>
+
+## text-transform
+
+```css
+p {
+  text-transform: uppercase; /* capitalize | lowercase | none */
+}
+
+```
+
+<https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform>
