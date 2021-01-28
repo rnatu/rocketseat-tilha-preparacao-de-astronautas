@@ -96,3 +96,27 @@ p {
 ```
 
 <https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration>
+
+## text-align
+
+* Alinhamento de um texto
+
+```css
+  p {
+    text-align: center; /* left | right | center | justify */
+  }
+```
+
+<https://developer.mozilla.org/en-US/docs/Web/CSS/text-align>
+
+## text-shadow
+
+* Sombra aplicada a um textos
+* Permite múltiplos valores
+
+```css
+p {
+  values => /* offset-x | offset-y | blut-radius | color */
+  text-shadow: 2px 2px 1px red,
+}
+```
