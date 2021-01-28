@@ -120,3 +120,16 @@ p {
   text-shadow: 2px 2px 1px red,
 }
 ```
+
+## shorthand
+
+* font-syle, font-variant, font-weight, font-stretch, font-size, line-height e font-family
+
+```css
+p {
+  -style, -variant, -weight, -stretch, -size, line-height, e -family
+  font: italic normal bold normal 1rem/1.5 Helvetica, Arial, sans-serif;
+}
+```
+
+<https://developer.mozilla.org/en-us/docs/Web/CSS/Shorthand_properties>
