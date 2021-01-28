@@ -76,3 +76,23 @@ p {
 ```
 
 <https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform>
+
+## text-decoration
+
+* Aparência decorativa de um texto
+* line: underline | overline | line-through
+  * podemos aplicar mais de 1 valor
+* style: wavy | dotted | double | dashed | solid
+* color: (color) values
+
+```css
+p {
+  text-decoration: underline wavy red; /* shorthand */
+  or
+  text-decoration-line: underline;
+  text-decoration-style: wavy
+  text-decoration-color: red;
+}
+```
+
+<https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration>
