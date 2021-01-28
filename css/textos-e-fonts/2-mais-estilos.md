@@ -27,3 +27,27 @@ p {
 ```
 
 <https://developer.mozilla.org/en-US/docs/web/CSS/font-stretch>
+
+## letter-spacing
+
+* Espaços entre caracteres
+
+```css
+p {
+  fontletter-spacing: 4px
+};
+```
+
+<https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing>
+
+## word-spacing
+
+* espaços entre caracteres
+
+```css
+p {
+  word-spacing: 4px;
+}
+```
+
+<https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing>
