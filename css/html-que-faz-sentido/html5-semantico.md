@@ -23,3 +23,41 @@ Com uma melhor semântica
                     <cite>- Mayk Brito</cite>
 <blockquote>
 ```
+
+## Seções comuns em documentos HTML
+
+- cabeçalho `<header>`
+- navegação `<nav>`
+- conteúdo principal `<main>`
+- barra lateral`<aside>`
+- rodapé `<footer>`
+
+```html
+<body>
+  <header>
+    logomarca
+
+    <nav>
+      <ul>
+        <li>
+          item 1
+        </li>
+        <li>
+          item 2
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    conteúdo
+  </main>
+
+  <aside>
+    Parte lateral
+  </aside>
+
+  <footer>rodapé</footer>
+
+</body>
+```
