@@ -1,0 +1,46 @@
+<!--
+  <input> Atributos comuns
+    - autocomplete - sugere valores de autocomplete do navegador
+    - autofocus (boolean) - Só um por página
+    - disabled - desabilita o campo
+    - readonly - desabilita edição do valor - (quase todos inputs)
+    - value - valor do input
+    - form - indica a qual formulário (pelo id) o input pertence - (quase todos inputs)
+    - name - utilizar para obter os dados no backend
+    - required - Campo se torna obrigatório o preenchimento - (quase todos inputs)
+    - placeholder - Deixa um tempo de "exemplo" no campo (password, search, tel, text, url)
+        placehold não deve substituir o label, pois o label possui tambem o intuito de acessibilidade
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <input type="email" autocomplete="email"><br><br>
+
+  <input type="text" autofocus><br><br>
+
+  <input type="text" autofocusdisabled><br><br>
+
+  <input type="text" value="valor qualquer" disabled><br><br>
+
+  <input type="text" value="texto" readonly><br><br>
+
+  <form id="meu-form"></form>
+  <input name="username" type="text" form="meu-form"><br><br>
+
+  <input type="text" required><br><br>
+
+  <label for="email">Digite seu email</label><br>
+  <input name="email" id="email" placeholder="example@example.com"><br><br>
+
+</body>
+</html>
+
+
