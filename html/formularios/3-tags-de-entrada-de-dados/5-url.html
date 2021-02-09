@@ -1,0 +1,55 @@
+<!--
+  <input type="url" />
+
+  - Espera que o usuário digite uma url
+  - Irá validar se o valor digitado é uma URL
+
+  # Atributos
+
+  - placeholder
+  - readonly / disabled
+  - value
+
+  - required
+
+  - minlength / maxlength
+   - O mínimo e/ou máximo valor que o campo irá conter
+
+  - size
+    - altera o tamanho do campo (não é muito utilizado pois o tamanho
+      é modelado via CSS)
+
+  - pattern
+    - Uso da expressão regular para validar o campo
+    - exemplo: o usuário só podera colocar domínio .com.br
+      * pattern=".*\.com\.br.*"
+
+  - list
+    - o id de uma tag <datalist> que está no mesmo documento
+    - <datalist> irá conter uma lista de valores pré
+
+  - spellcheck (true or false)
+    - Habilita a verificação ortográfica para este input
+ -->
+
+
+<form action="#">
+ <input type="url" placeholder="http://example.com"
+  minlength="8"
+  pattern=".*\.com\.br.*"
+  title="Somente dominios .com.br serão aceitos"
+  required
+ ><br><br>
+
+
+ <!-- list -->
+ <datalist id="urllist">
+   <option>https://www.google.com.br</option>
+   <option>https://github.com.br</option>
+   <option>http://facebook.com.br</option>
+ </datalist>
+
+ <input type="url" list="urllist"><br><br>
+
+<button type="submit">Enviar</button>
+</form>
