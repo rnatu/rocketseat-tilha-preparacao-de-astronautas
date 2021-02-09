@@ -1,0 +1,62 @@
+<!--
+  <input type="file" />
+
+  - Usuário poderá escolher 1 ou mais arquivos
+    para enviar no formulário
+
+  # Atributos
+
+  - value
+    - contém o arquivo a ser enviado
+      (irá conter apenas um arquivo, para multiplos arquivos utilizar files)
+
+  - accept
+    - descreve que tipos de arquivos serão aceitos
+      - exemplo: .doc .docx, .pdf, audio/*, image/png, .png
+
+  - files
+   - a lista de arquivo ou arquivos
+    (irá conter um ou mais arquivos)
+
+  - multiple
+    - prmite o envio de múltiplos arquivos
+
+  # Envio dos arquivos
+    Para envio dos arquivos o formulário deverá utilizar o método POST
+    e o atributo enctype="multipart/form-data"
+ -->
+
+ <!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>input - File</title>
+ </head>
+ <body>
+
+  <form action="#" method="post" enctype="multipart/form-data" onsubmit="handleSubmit(event)">
+
+    <input type="file" accept=".js, .css, image/*" multiple>
+
+    <br><br/>
+    <button>Enviar</button>
+  </form>
+
+
+  <script>
+    function handleSubmit(event) {
+      event.preventDefault()
+    const input = document.querySelector('input')
+
+    console.log(input.files)
+
+    console.log(input.files[0].lastModifiedDate)
+    }
+  </script>
+
+ </body>
+ </html>
+
+
