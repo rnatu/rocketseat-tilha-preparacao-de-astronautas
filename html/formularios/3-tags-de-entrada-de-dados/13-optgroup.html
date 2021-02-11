@@ -1,0 +1,37 @@
+<!--
+  <optgroup label="categoria de opções">
+    <option></option>
+    <option></option>
+    <option>/option>
+  </optgroup>
+
+  Faz o agrupamento dos options dentro do select
+  Utilizando label para definir a categoria das options
+ -->
+
+
+<form action="#">
+<label for="carselect">Please choose one or more pets:</label><br>
+<select name="pets" multiple size="8">
+  <optgroup label="4-legged pets">
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="hamster" disabled>Hamster</option>
+  </optgroup>
+
+  <optgroup label="Flying pets">
+    <option value="parrot">Parrot</option>
+    <option value="macaw">Macaw</option>
+    <option value="albatross">Albatross</option>
+  </optgroup>
+</select>
+
+<br>
+<button type="submit">Enviar</button>
+</form>
+
+<!--
+no backend algo semelhante a: (utilizando multiple neste caso)
+name     value/values
+pets=god,cat,parrot
+ -->
