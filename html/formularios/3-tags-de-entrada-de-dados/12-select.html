@@ -1,0 +1,39 @@
+<!--
+  <select>
+    <option value="">Selecione o modelo</option>
+    <option value="fiat">Uno</option>
+  </select>
+
+  - Controle que fornece um menu de opções
+
+  <option>
+    - Contém as opções a serem selecionadas
+    - Atributos necessários
+      - value
+
+  ATRIBUTOS ÚNICOS
+    - multiple
+      Habilita múltiplas opções
+    - size
+      Quantas opções visíveis?
+
+ -->
+ <form action="#">
+<label for="carselect">Qual o modelo do carro</label><br>
+
+<select name="carmodel" id="carselect">
+  <option value="">Selecione o modelo</option>
+  <option value="fiat">Uno</option>
+  <option value="audi">A3</option>
+  <option value="Bmw">X6</option>
+</select>
+
+<br>
+<button type="submit">Enviar</button>
+</form>
+
+<!--
+no backend algo semelhante a:
+name     value
+carmodel=fiat (se for escolhido o uno)
+ -->
