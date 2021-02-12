@@ -1,0 +1,38 @@
+<!-- https://developer.mozilla.org/en-US/docs/Web/Media/Formats -->
+
+<!--
+#  <video>
+    - src (pode ser utilizado separado com a tag <source>)
+    - controls
+    - width/height
+    - autoplay
+        ?(depende do navegador, alguns só funcionam se possuir o atributo muted)
+    - muted (deixa o video no mudo automaticamente)
+    - preload=""
+      - auto (para ir baixando o video antes de dar play)
+      - metadata (para ir baixando somente o básico antes de dar play)
+      - none (não faça preload de nada antes de dar play)
+    - loop (video recomeça automaticamente)
+    - poster="" (colocar uma imagem antes do video começar)
+    - se não funcionar?
+      - fallback content
+
+#  <source> (src usado separado)
+    - source
+      - src
+      - type
+
+      - sobre serviços de terceiros
+ -->
+
+<video controls
+ width="500"
+ autoplay
+ preload="none"
+ loop
+ poster="assets-example/img-monkey.png"
+>
+  <source src="assets-example/Mountains - 61818.mp4"
+  type="video/mp4">
+  <p>Esse browser não suporta video</p>
+</video>
