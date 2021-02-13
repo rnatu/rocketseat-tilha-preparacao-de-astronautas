@@ -5,7 +5,7 @@
 * Estrutura de dados do tipo árvore, criada pelo browser
 * Propriedades e métodos
 
-# Para que ?
+## Para que ?
 
 * Javascript usa a DOM para se conectar ao HTML
 * Manipular o HTML com o JavaScript
