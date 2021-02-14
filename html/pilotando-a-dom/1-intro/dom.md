@@ -10,5 +10,3 @@
 * Javascript usa a DOM para se conectar ao HTML
 * Manipular o HTML com o JavaScript
 * Você só programa pra WEB porque existe a DOM
-
-* Exemplo
