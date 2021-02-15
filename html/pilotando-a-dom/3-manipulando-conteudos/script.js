@@ -18,3 +18,12 @@ console.log(element3.innerHTML)
 element3.innerHTML = 'Um <br> novo <br> <small>texto</small>'
 element3.innerHTML += ' <em>Sou concatenado</em>'
 console.log('')
+
+// value -> manipulado o valor
+//# elementos que trabalhem com o atributo value
+const element4 = document.querySelector('input');
+console.log(element4.value)
+element4.value = 'Um valor'
+element4.value += ' -> concat value'
+console.log('')
+
