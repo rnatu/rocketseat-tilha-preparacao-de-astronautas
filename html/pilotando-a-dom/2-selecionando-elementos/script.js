@@ -6,5 +6,6 @@ console.log(element1)
 const element2 = document.getElementsByClassName('one')
 console.log(element2)
 
+// getElementsByTagName()
 const element3 = document.getElementsByTagName('h1');
 console.log(element3)
