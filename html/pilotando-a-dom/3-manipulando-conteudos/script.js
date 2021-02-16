@@ -31,7 +31,6 @@ console.log('')
 const element5 = document.querySelector('header');
 // setAttribute
 element5.setAttribute('class', 'bg header')
-element5.setAttribute('style', 'color: #f1f')
 // getAttribute
 console.log(element5.getAttribute('class'))
 // removeAttribute
