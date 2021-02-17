@@ -4,7 +4,7 @@ console.log(el1.parentElement)
 console.log(el1.parentNode)
 console.log('')
 
-//# elementos filhos
+//# Elementos filhos
 //% childNodes (NodeList) e children (HTMLCollection)
 const el2 = document.querySelector('body')
 
@@ -15,16 +15,33 @@ console.log(el2.children) // HTMLCollection
 console.log('')
 
 //% firstChild e firstElementChild
-console.log(el2.firstChild) //NodeList
+console.log(el2.firstChild)
 //? leva em consideração elementos vazios
 
-console.log(el2.firstElementChild) // HTMLCollection
+console.log(el2.firstElementChild)
 console.log('')
 
 //% lastChild e lastElementChild
 console.log('lastChild e lastElementChild')
-console.log(el2.lastChild) //NodeList
+console.log(el2.lastChild)
 //? leva em consideração elementos vazios
 
-console.log(el2.lastElementChild) // HTMLCollection
+console.log(el2.lastElementChild)
+console.log('')
+
+// # Elemento irmão
+const el3 = document.querySelector('h2')
+
+// % nextSibling e nextElementSibling
+console.log(el3.nextSibling)
+//? leva em consideração elementos vazios
+
+console.log(el3.nextElementSibling)
+console.log('')
+
+// % previousSibling e previousElementSibling
+console.log(el3.previousSibling)
+//? leva em consideração elementos vazios
+
+console.log(el3.previousElementSibling)
 console.log('')
