@@ -1,16 +1,24 @@
 //# createElement
 const div = document.createElement('div');
 div.innerText = 'Olá devs!';
-const div2 = document.createElement('div');
-div2.innerText = 'Olá devs2!'
 
 //# append e prepend
 //! no final da tag ou no começo
 //% append
-const body = document.querySelector('body');
-body.append(div);
+// const body = document.querySelector('body');
+// body.append(div);
 
 //% prepend
-const header = document.querySelector('header');
-header.prepend(div2);
+// const body = document.querySelector('body');
+// body.append(div);
 
+//# insertBefore
+const body = document.querySelector('body');
+const p = body.querySelector('h2');
+
+// argumentos -> elemento a ser inserido, e elemento de referencia
+//? no exemplo abaixo: inserir a div antes da tag p
+// body.insertBefore(div, p);
+
+//# "insertAfter" (um truque)
+body.insertBefore(div, p.nextElementSibling);
