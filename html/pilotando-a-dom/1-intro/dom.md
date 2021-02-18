@@ -1,5 +1,7 @@
 # DOM (Document Object Model)
 
+<https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/>.
+
 * É o HTML convertido para um Objeto JavaScript
 * API que representa e interage com o HTML
 * Estrutura de dados do tipo árvore, criada pelo browser
