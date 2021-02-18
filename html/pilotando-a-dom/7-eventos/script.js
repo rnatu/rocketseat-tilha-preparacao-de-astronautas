@@ -6,7 +6,7 @@ function print() {
 //# Eventos de teclado
 const input = document.querySelector('input');
 
-input.onkeypress = function(e) {
+input.onkeypress = function() {
   console.log('apertei a tecla');
 }
 
@@ -29,3 +29,10 @@ Já o método 2, como ele sempre recebe uma função, se for utilizado mais de u
 
 Aula -> Adicionando eventos via JS (outro método)
 */
+
+//# parametro event (é opcional)
+const h3 = document.querySelector('input');
+
+h3.addEventListener('keypress', event => {
+  console.log(event.target.value);
+})
