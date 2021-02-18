@@ -3,6 +3,11 @@ function print() {
   console.log('print')
 }
 
-//# append e prepend
+//# Eventos de teclado
+const input = document.querySelector('input');
+
+input.onkeypress = function(e) {
+  console.log('apertei a tecla');
+}
 //! no final da tag ou no começo
 //% append
